@@ -39,12 +39,30 @@ header{
 }
 
 .formpost{
+    width: 475px;
     background-color: white;
     padding: 20px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     gap: 15px;
+}
+
+.formpost button{
+    width: 475px;
+    border-radius: 8px;
+}
+
+.formpost input{
+    width: 450px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.formpost textarea{
+    width: 450px;
+    padding: 10px;
+    border-radius: 8px;
 }
 
 .posts{
@@ -57,3 +75,16 @@ header{
     max-width: 450px;
 }
 
+.botaocurtir{
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.botaocompartilhar{
+    background-color:blueviolet;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

@@ -40,6 +40,14 @@ form button{
     margin-top: 10px;
     border-radius: 5px;
     border:1px solid white;
+    cursor: pointer;
+
+}
+
+form button:hover{
+    background-color: rgb(93, 93, 195);
+    color: white;
+    cursor: pointer;
 
 }
 
